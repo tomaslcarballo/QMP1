@@ -47,11 +47,6 @@ class Crocs extends Prenda {
 }
 
 
-enum  TipoDePrenda{
-    ZAPATO, CAMISAMANGACORTA, CAMISAMANGALARGA, PANTALON, ANTEOJOS, ZAPATILLA, PANIUELO, REMERAMANGACORTA, REMERAMANGALARGA,
-    MUSCULOSA, POLLERA, CROCS
-}
-
 enum Color{
     ROJO, AMARILLO, VERDE, NEGRO, BLANCO, AZUL, NARANJA, MARRON, VIOLETA, CELESTE
 }
@@ -64,7 +59,7 @@ enum Mangas{
     CORTAS, LARGAS
 }
 
-class Atuendo{
+class Atuendo extends Prenda {
     List<Prenda> prendas;
     void generarAtuendo(Prenda prenda){
         prendas.add(prenda);
