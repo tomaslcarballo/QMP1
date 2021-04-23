@@ -59,7 +59,7 @@ enum Mangas{
     CORTAS, LARGAS
 }
 
-class Atuendo extends Prenda {
+class Atuendo  {
     List<Prenda> prendas;
     void generarAtuendo(Prenda prenda){
         prendas.add(prenda);
